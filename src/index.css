@@ -1,12 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-body {
-  background-color: #eff5f5;
+
+.view_transactions {
+  display: flex;
+}
+
+.transactions {
+  min-width: 75%;
+  min-height: 100vh;
+  background-color: #cdf0ea;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.navbar {
+  min-height: 100vh;
+  min-width: 25%;
 }
