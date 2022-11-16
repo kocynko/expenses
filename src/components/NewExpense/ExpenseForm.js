@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
 import './ExpenseForm.css';
+import Button from '../UI/Button';
 
 const ExpenseForm = (props) => {
   const [userInput, setUserInput] = useState({
     titleInput: '',
-    amountInput: '',
+    amountInput: '0.01',
     dateInput: '',
   });
 
@@ -74,7 +75,10 @@ const ExpenseForm = (props) => {
           />
         </div>
         <div className="new-expense__actions">
-          <button type="submit">Add expense</button>
+          <Button type="submit">Add expense</Button>
+          <Button type="button" onClick={props.showForm}>
+            Cancel
+          </Button>
         </div>
       </div>
     </form>
