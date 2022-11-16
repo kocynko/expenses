@@ -1,6 +1,7 @@
 .new-expense {
   padding: 1rem 1rem;
   width: 95%;
+  margin-top: 20px;
 }
 
 .new-expense button {
