@@ -8,7 +8,7 @@
 .expense-item__description {
   display: flex;
   align-items: center;
-  font-size: large;
+  font-size: medium;
   flex: 1;
 }
 
@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: space-evenly;
     max-width: 120px;
-    font-size: 1.25rem;
+    font-size: small;
   }
 
   .expense-item__description h2 {
