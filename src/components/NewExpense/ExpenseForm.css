@@ -1,10 +1,9 @@
 .new-expense__controls {
   display: flex;
   align-items: center;
-  justify-content: centers;
+  justify-content: center;
   gap: 10px 30px;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 .new-expense__control input {

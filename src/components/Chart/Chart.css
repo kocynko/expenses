@@ -1,0 +1,8 @@
+.chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15em;
+  width: 95%;
+  margin: 0 auto;
+}
